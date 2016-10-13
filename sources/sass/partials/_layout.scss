@@ -1,0 +1,31 @@
+////////////////////////////////////
+/// /file _layout.scss
+/// /version 0.1
+/// /author Cyril POIDEVIN
+/// 
+/// Définition du système de grilles
+////////////////////////////////////
+
+.container {
+  margin: 0 auto;
+  width: $container-width;
+}
+.row {
+	@include clearfix();
+}
+.column { // Classe commune à toutes les colonnes
+  float: left;
+  margin: {
+    left: $column-gutter-width;
+    right: $column-gutter-width;
+  }
+}
+// Itérer $columns fois (ici, 24)
+@for $i from 1 through $columns {
+  .span-#{$i} {
+    @include columns($i);
+  }
+}
+.clear {
+	@include clearfix();
+}

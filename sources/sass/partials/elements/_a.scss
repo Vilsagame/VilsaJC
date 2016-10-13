@@ -1,0 +1,17 @@
+////////////////////////////////////////////////////////
+/// /file _a.scss
+/// /version 0.1
+/// /author Cyril POIDEVIN
+/// 
+/// Définition des différents styles des liens
+////////////////////////////////////////////////////////
+
+a {
+  color: $links-color;
+  &:hover {
+    color: $links-hover-color;
+  }
+  &:visited {
+    color: $links-visited-color;
+  }
+}

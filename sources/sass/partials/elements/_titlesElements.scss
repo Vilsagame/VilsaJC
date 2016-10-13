@@ -1,0 +1,30 @@
+////////////////////////////////////////////////////////
+/// /file _titlesElements.scss
+/// /version 0.1
+/// /author Cyril POIDEVIN
+/// 
+/// Définition des différents éléments de titre HTML
+////////////////////////////////////////////////////////
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: $alternative-font-stack;
+}
+h1, .h1 {
+  font-size: 2em;
+}
+h2, .h2 {
+  font-size: 1.5em;
+}
+h3, .h3 {
+  font-size: 1.17em;
+}
+h4, .h4 {
+  font-size: 1em;
+}
+h5, .h5 {
+  font-size: .83em;
+}
+h6, .h6 {
+  font-size: .67em;
+}

@@ -1,0 +1,31 @@
+//////////////////////////////////////////
+/// /file _variables.scss
+/// /version 0.1
+/// /author Cyril POIDEVIN
+/// 
+/// Définition de l'ensemble des variables
+//////////////////////////////////////////
+
+///
+/// Définition des variables concernant la typo
+///
+
+/// font-family
+$default-font-stack : Arial, sans-serif !default;
+$alternative-font-stack : 'Trebuchet MS', 'Lucida Sans', 'Lucida Grande', Tahoma, sans-serif !default;
+$quote-font-stack : Garamond, 'Hoefler Text', Palatino, 'Palatino Linotype', serif !default;
+$code-font-stack: Monaco, Courrier, monospace !default;
+
+/// couleurs
+$links-color : #0088FF !default; // Bleu pour les liens
+$links-hover-color: $links-color !default; // Couleur au survol
+$links-visited-color: lighten($links-color, 5%) !default; // Liens visités (ici, un peu plus clairs)
+
+///
+/// Définition des variables concernant les colonnes
+///
+$column-width: 30px !default; // Largeur d’une colonne
+$column-gutter-width: 5px !default; // Marge de chaque côté d’une colonne
+$column-outer-width: $column-width + $column-gutter-width * 2 !default; // Largeur externe d’une colonne, en comptant la gouttière de chaque côté (40px)
+$columns: 24 !default; // Nombre de colonnes
+$container-width: $columns * $column-outer-width !default; // Largeur totale du contenu (960px)

@@ -1,0 +1,18 @@
+////////////////////////////////////
+/// /file _mixins.scss
+/// /version 0.1
+/// /author Cyril POIDEVIN
+///
+/// Reunion de l'ensemble des mixins
+////////////////////////////////////
+
+// Inclusion des mixins
+@import "mixins/clearfix";
+
+// Usage : @include columns($cols);
+// $cols = nombre de colonnes à couvrir
+// Retourne la largeur du bloc en pixels
+@mixin columns($cols) {
+  @extend .column; // Styles communs à toutes les colonnes
+  width: $cols * $column-width + ($column-gutter-width * 2) * ($cols - 1); // largeur du bloc
+}

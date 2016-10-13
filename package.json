@@ -1,0 +1,33 @@
+{
+  "name": "vilsajc",
+  "version": "1.0.0",
+  "description": "VilsaJC est un framework JavaScript & CSS regroupant plusieurs techniques et basé sur une nommenclature dérivé de BEM expliquée sur le site [d'Alsacreation](http://www.alsacreations.com/article/lire/1641-bonnes-pratiques-en-css-bem-et-oocss.html).",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vilsagame/VilsaJC.git"
+  },
+  "keywords": [
+    "framework",
+    "javascript",
+    "css"
+  ],
+  "author": "Vilsafur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vilsagame/VilsaJC/issues"
+  },
+  "homepage": "https://github.com/Vilsagame/VilsaJC#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssnext": "^1.0.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-util": "^3.0.7",
+    "minimist": "^1.2.0"
+  }
+}
